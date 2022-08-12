@@ -7,3 +7,7 @@ body {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
+
+.selectedWord {
+  margin: 20px;
+}

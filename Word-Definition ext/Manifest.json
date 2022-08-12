@@ -8,6 +8,7 @@
       "js": ["contentScript.js"]
     }
   ],
+  "permissions": ["tabs", "storage"],
   "background": {
     "service_worker": "background.js"
   },
@@ -15,6 +16,5 @@
     "default_icon": "search.png",
     "default_popup": "popup.html",
     "default title": "Word definition"
-  },
-  "permissions": ["tabs"]
+  }
 }

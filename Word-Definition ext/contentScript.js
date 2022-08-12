@@ -1,14 +1,15 @@
 window.addEventListener("mouseup", () => {
   console.log("Selected word");
-  var selectedText = window.getSelection().toString();
+  var selectedText = window.getSelection().toString().trim();
   console.log(selectedText);
+  var message = "";
 
   if (selectedText.length > 0) {
     //Creating the message object.
-    let message = {
+    message = {
       text: selectedText,
     };
-    //Send message to the background script.
-    chrome.runtime.sendMessage(message);
   }
+
+  chrome.storage.local.set({ word: selectedText });
 });
