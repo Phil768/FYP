@@ -18,6 +18,8 @@ chrome.storage.local.get("word", function (data) {
 //Dictionary API with the selected word as a variable.
 let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
 
+selectedWordDefinition.innerHTML = "hello";
+
 loadJSON(url, (data) => {
-  selectedWordDefinition.innerHTML = data.origin;
+  selectedWordDefinition.innerHTML = data.word;
 });
