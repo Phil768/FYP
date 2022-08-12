@@ -1,0 +1,9 @@
+body {
+  width: 200px;
+}
+.header {
+  width: 100%;
+  display: inline;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
