@@ -5,6 +5,7 @@ body {
   width: 100%;
   display: inline;
   text-align: center;
+  font-weight: bold;
   font-family: "Courier New", Courier, monospace;
   border-bottom: 2px solid black;
 }
@@ -27,16 +28,19 @@ body {
 }
 
 .selectedWordContent {
+  font-size: 15px;
   font-style: italic;
   padding-left: 10px;
 }
 
 .selectedWordDefinitionContent {
+  font-size: 15px;
   font-style: italic;
   padding-left: 10px;
 }
 
 .selectedWordExampleContent {
+  font-size: 15px;
   font-style: italic;
   padding-left: 10px;
 }

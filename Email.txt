@@ -1,0 +1,15 @@
+Dear Lecturer,
+
+I have been researching about the various technologies that go into making a browser extension and have some questions, mainly about the background/content_scripts. 
+
+My first question is, what can the background.js do that the contentScript.js and the extension.js can't do? What is the background.js ideally used for when creating a browser extension?
+I understand the roles that each script plays, however, I have not fully understood why can't some of the background.js functions be bypassed by dealing with the contentScript.js and 
+extension.js directly.
+
+Another thing that I wanted to ask is, since manifest V3, background files have converted to 'content_scripts' rather than just scripts. I wanted to ask what is the main difference that
+this kind of script is facing and how it works. I have searched online and saw that there is some kind of registration for the script(I had multiple errors stating that the content_
+the script has not been registered), and that it has a specific lifecycle as well. I have not fully understood this.
+
+The rest, I have been able to understand and utilize correctly, but this part is still giving me some trouble.
+
+Thank you.
