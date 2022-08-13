@@ -10,6 +10,5 @@ window.addEventListener("mouseup", () => {
       text: selectedText,
     };
   }
-
   chrome.storage.local.set({ word: selectedText });
 });
